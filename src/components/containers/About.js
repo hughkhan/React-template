@@ -10,7 +10,7 @@ class About extends Component {
         return (
             <div>
                 <h2>About</h2>
-                <p>
+                <div>
                     <h4>Intro</h4>
                     Highplume is designed to give immediate and continuous feedback to your fellow teammates.  Making the task effortless allows more feedback and facilitates giving
                     feedback on the spot, as it happens.  The feedback is anonymous.  You give feedback by giving a virtual "Thumbs Up" (TU) to teammates as you see them perform a
@@ -19,7 +19,7 @@ class About extends Component {
                     placement.  The placement is only there to help you gauge how well you represent each company value.
                     <br/><br/>
                     Each company chooses values that best reflect the company's culture and mission.  Each teammate should try to "live" those values.
-                </p>
+                </div>
 
             </div>
         );

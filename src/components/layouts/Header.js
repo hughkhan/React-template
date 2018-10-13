@@ -31,7 +31,8 @@ class Header extends Component {
                         <h1 className="w3-xxxlarge w3-text-theme">Side Navigation</h1>
                         <button className="w3-bar-item w3-button" onClick={this.w3_close}>Close <i className="fa fa-remove"></i></button>
                         <Link className="w3-bar-item w3-button" to="/about" onClick={this.w3_close}>About</Link>
-                        <a href="/" className="w3-bar-item w3-button">Link 2</a>
+                        <Link className="w3-bar-item w3-button" to="/postform" onClick={this.w3_close}>Post</Link>
+                        <Link className="w3-bar-item w3-button" to="/allposts" onClick={this.w3_close}>All Posts</Link>
                         <a href="/" className="w3-bar-item w3-button">Link 3</a>
                         <a href="/" className="w3-bar-item w3-button">Link 4</a>
                     </nav>
