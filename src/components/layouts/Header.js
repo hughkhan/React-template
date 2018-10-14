@@ -33,8 +33,6 @@ class Header extends Component {
                         <Link className="w3-bar-item w3-button" to="/about" onClick={this.w3_close}>About</Link>
                         <Link className="w3-bar-item w3-button" to="/postform" onClick={this.w3_close}>Post</Link>
                         <Link className="w3-bar-item w3-button" to="/allposts" onClick={this.w3_close}>All Posts</Link>
-                        <a href="/" className="w3-bar-item w3-button">Link 3</a>
-                        <a href="/" className="w3-bar-item w3-button">Link 4</a>
                     </nav>
 
                     <header className="w3-container w3-theme w3-padding" id="myHeader">
