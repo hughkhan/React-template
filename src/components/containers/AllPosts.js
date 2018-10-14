@@ -9,7 +9,6 @@ class AllPosts extends Component {
 
     render() {
 
-        let x = this.props.posts.post;
         return (
             <div>
                 <h1 className="post_heading">All Posts</h1>
