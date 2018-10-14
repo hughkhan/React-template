@@ -22,7 +22,7 @@ class PostForm extends Component {
             message,
             editing: false
         }
-//        this.props.posts.posts.push(post);
+
         this.props.dispatch({
             type: 'ADD_POST',
             post
@@ -31,8 +31,6 @@ class PostForm extends Component {
         this.getMessage.value = '';
     }
     render() {
-
-        var x = this.props.posts;
         return (
             <div className="post-container">
                 <h1 className="post_heading">Create Post</h1>

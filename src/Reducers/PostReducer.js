@@ -4,17 +4,15 @@
 import * as types from '../actions/ActionTypes';
 
 const initialState = {
-    posts: []
+    post: []
 };
 
 const postReducer = function(state = initialState, action) {
 
     switch (action.type) {
         case types.ADD_POST:
-            let _state = state;
-            _state.posts.push(action.post);
-            Object.assign({},state,_state);
-//            return state.posts.push(action.post);
+            state.post.push(action.post);
+            return state;
             break;
         default: return state;
     }

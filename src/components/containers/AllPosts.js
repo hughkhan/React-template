@@ -8,10 +8,12 @@ import { connect } from 'react-redux';
 class AllPosts extends Component {
 
     render() {
+
+        let x = this.props.posts.post;
         return (
             <div>
                 <h1 className="post_heading">All Posts</h1>
-                {this.props.posts.posts.map((post) => (
+                {this.props.posts.post.map((post) => (
                     <div key={post.id}>
                         Title: {post.title} --- Message: {post.message}
                     </div>
@@ -20,6 +22,7 @@ class AllPosts extends Component {
         );
     }
 }
+
 
 const mapStateToProps = (state) => {
     return {
